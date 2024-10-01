@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: antiquewhite;
+  cursor: url("luffy.ani"), auto;
+}
+
+nav {
+  background-color: #008c8c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  cursor: help;
+}
+
+nav h2 {
+  background-color: #008c8c;
+  cursor: help;
+}
+
+nav:hover {
+  font-size: 170%;
+}
+
+aside {
+  float: left;
+  margin: 20px;
+}
+
+main {
+  float: right;
+  margin-top: 2%;
+  text-align: center;
+  line-height: 1.4;
+  font-family: Cambria;
+  cursor: progress;
+}
+
+main p {
+  cursor: grab;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+}
+
+footer,
+footer p,
+footer strong {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background-color: #008c8c;
+  color: white;
+  cursor: wait;
+}
+
+footer p,
+footer strong {
+  padding: 10px;
+}
+
+button {
+  border: 3px solid #008c8c;
+  padding: 3px;
+  background-color: mintcream;
+  font-family: "Comic Sans MS";
+  color: green;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  cursor: move;
+}
+
+textarea {
+  border-radius: 10px;
+  background-color: mintcream;
+  color: green;
+  cursor: not-allowed;
+}
